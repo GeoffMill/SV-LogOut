@@ -1,0 +1,12 @@
+﻿{
+  "Name": "OSvC",
+  "Type": "App",
+  "Id": "StDFHF14wUWSYOjruzh8QA",
+  "Reference": "ofiVv82sLE-CZ2OMMMeI_w/StDFHF14wUWSYOjruzh8QA",
+  "Created": "2026-10-07T05:44:03.3116121Z",
+  "Updated": "2026-10-07T05:44:03.3116121Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

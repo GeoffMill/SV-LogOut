@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SignOutOption",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "tAuMjZ5OUUmoIP47M6zRVA",
+  "Reference": "ofiVv82sLE-CZ2OMMMeI_w/tAuMjZ5OUUmoIP47M6zRVA",
+  "ParentRef": "ofiVv82sLE-CZ2OMMMeI_w/FEjj856de0uaH_y52A08iQ",
+  "Created": "2026-10-07T05:53:07.4634918Z",
+  "Updated": "2026-10-07T05:53:07.4634918Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

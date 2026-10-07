@@ -1,0 +1,17 @@
+﻿{
+  "Name": "UserIcon",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "gA4BSnaMY0-tx7umcrTRmQ",
+  "Reference": "ofiVv82sLE-CZ2OMMMeI_w/gA4BSnaMY0-tx7umcrTRmQ",
+  "ParentRef": "ofiVv82sLE-CZ2OMMMeI_w/FEjj856de0uaH_y52A08iQ",
+  "Created": "2026-10-07T05:49:41.497063Z",
+  "Updated": "2026-10-07T05:53:18.3353606Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

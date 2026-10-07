@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oibKJG0o2kK4ekOn-x0Hpw" Reference="ofiVv82sLE-CZ2OMMMeI_w/9FD-oABD90mSDn2I_zgpRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed--tst1.custhelp.com/AgentWeb" CVScreenId="be5c7bbd-da55-4f52-adc5-acd835aff966" DesignTimeRectangle="1757, 418, 151, 39" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl id='ui-id-18' matching:id='fuzzy' fuzzylevel:id='0.0' tag='A' type='' class='oj-menu-option-text-only' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Sign Out' innertext='Sign Out' check:innerText='Sign Out' /&gt;" Guid="043af7ff-26a3-4581-a11a-dde993c435d5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Oracle ® Service Cloud*' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="be5c7bbd-da55-4f52-adc5-acd835aff966" DesignTimeRectangle="1757, 378, 151, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ui-id-17' matching:id='fuzzy' fuzzylevel:id='0.0' tag='A' type='' class='oj-menu-option-text-only' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Help' innertext='Help' check:innerText='Help' /&gt;" Guid="8235511f-ab98-4a8a-a749-0cb243f74814" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6b5f49bbedc056aae9dfd86f8350dcd4.jpg" xmlns="">0X76SaruzykGvhrd9kfFbdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

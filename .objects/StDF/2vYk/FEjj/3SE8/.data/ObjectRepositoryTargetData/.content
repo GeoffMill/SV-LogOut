@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XEiuwpCMzEmNYq_eBy5n_Q" Reference="o8q7xmvUokq2eIo5Q598-g/dgFWDNZZqk68aRGPZgtybg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed--tst1.custhelp.com/cgi-bin/icumedical.cfg/php/sso/saml2/idp/post/logout.php" CVScreenId="03ece4d4-2bd5-4e62-bc65-5aa0fd63cc8c" CvTextArea="808, 607, 189, 18" CvTextArgument="Successfully logged out." CvType="Text" DesignTimeRectangle="815, 610, 207, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='ssoMessageStyle' aaname='Successfully logged out.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Successfully logged out.' /&gt;" Guid="68c4783e-5db4-42df-9904-67be69535566" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SSO Logout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="5908900c6626636609c2a3d302866c3a.jpg" xmlns="">09LlIiPgBnkmqzBS7Jr4uNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,193 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1044,1584" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="OSvCUrl" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;LogOutOSvC...start&quot;]" />
+    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="OSvCURL" CacheStrategy="None" DisplayName="Get Asset" FolderPath="OSvC" sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
+      <ui:GetRobotAsset.Value>
+        <OutArgument x:TypeArguments="x:String">[OSvCUrl]</OutArgument>
+      </ui:GetRobotAsset.Value>
+    </ui:GetRobotAsset>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="OSvC" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1044" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="40f1b09b-7534-472f-851b-3536a98b959d" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,840" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click User Icon" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="40f1b09b-7534-472f-851b-3536a98b959d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed--tst1.custhelp.com/AgentWeb" CVScreenId="8a797615-ba3f-4a6c-ba50-e37070697184" ContentHash="Rs8Fkvn1Z0urtmOAqaWK-Q" DesignTimeRectangle="1872, 182, 37, 36" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl parentid='avatarMenuIcon' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='DIV' type='' class='oj-avatar-xs oj-avatar-circle oj-avatar-no-image oj-avatar-has-initials' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b9ad3d6a-7a6f-430e-86bd-c0bf060c6b79" InformativeScreenshot="57b3a2d8bdfbce7cb28f3fb61983d9a5.jpg" Reference="ofiVv82sLE-CZ2OMMMeI_w/gA4BSnaMY0-tx7umcrTRmQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Oracle ® Service Cloud*' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="8a797615-ba3f-4a6c-ba50-e37070697184" CvElementArea="1791, 177, 26, 27" CvType="Icon" DesignTimeRectangle="1818, 188, 34, 26" Guid="7f0e8a44-88cd-4fbc-9eba-64afdee1078d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAaCAYAAADSbo4CAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVEhL7ZYxa+NAEIXvvwQC+RWuVLoRKe/gwIVqB19nUCE4SCDgxqAixIUrgwoLFQmBENIcKkJcxWDQgrEDARsOJDCoMLxbaaWwscfeVXJFDm7gFdaMVp9nn2b15ejwAJ9B/zaIadlwBz6CoQ/PtWGZdF0VVQIxHR/sN8hI2B0uT2rkfTrSBKnBuZohLR6aRfISgU0iLGPp6nqB8Ox9MFogRu/pFWL50Ed7YyuMkwuEL0VFGsGz3uZ1pAFyjtFKPCMJf8IgazI1EExFHaY+LLJmt9QgvBt5rB7hGkRelnWNeV6cgnkNumaHlCCnYSyWHnXJ/Kas4SyvB+JKflGCeEwsO7/6Sua31eD3lH5Z4L5TJ2q2pd2RzB9UnpTRRFDC8EieI9y7+7ujBDG8SKy2vEObyO8Uh/Em0qut8JjarEYf43W2UopxT3PPTRvBRHQyj3UMNrRhUrWF1CBc7duFWFDZlTqcYYQkBxeRTHw4GkeAFojclVGHyPPJ2+peg0lNSJdPCBw9o2bSA+HqPIj93nyN86n6LHkhnSHsNfcMPlraIEfdRzHm4184zX5zM16G8vmTYh5eoJUbsg7rRxOtc1vb4PoghwOIkcL/scoHhl9MWH7uvFljt94BIkUcET7gfrkppmvZPQ3pg7jF1mTBJ+ZYfh0tDrmKMeefBaw8hXk1G+hO40odaeBmKvug1DEfXMWzX4PX3e47qbdVAWSfavh+1s8/HYNBF+1v1T+O/hLIx/UfZFOfBOQAfwCrQ1Q+KuApCwAAAABJRU5ErkJggg==" SearchSteps="CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="icumed--tst1.custhelp.com/AgentWeb" CVScreenId="be5c7bbd-da55-4f52-adc5-acd835aff966" ContentHash="oibKJG0o2kK4ekOn-x0Hpw" DesignTimeRectangle="1757, 418, 151, 39" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl id='ui-id-18' matching:id='fuzzy' fuzzylevel:id='0.0' tag='A' type='' class='oj-menu-option-text-only' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Sign Out' innertext='Sign Out' check:innerText='Sign Out' /&gt;" Guid="043af7ff-26a3-4581-a11a-dde993c435d5" InformativeScreenshot="6b5f49bbedc056aae9dfd86f8350dcd4.jpg" Reference="ofiVv82sLE-CZ2OMMMeI_w/tAuMjZ5OUUmoIP47M6zRVA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Oracle ® Service Cloud*' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target CVScreenId="be5c7bbd-da55-4f52-adc5-acd835aff966" DesignTimeRectangle="1757, 378, 151, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ui-id-17' matching:id='fuzzy' fuzzylevel:id='0.0' tag='A' type='' class='oj-menu-option-text-only' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Help' innertext='Help' check:innerText='Help' /&gt;" Guid="8235511f-ab98-4a8a-a749-0cb243f74814" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Click 'Sign Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="40f1b09b-7534-472f-851b-3536a98b959d" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed--tst1.custhelp.com/AgentWeb" CVScreenId="be5c7bbd-da55-4f52-adc5-acd835aff966" ContentHash="oibKJG0o2kK4ekOn-x0Hpw" DesignTimeRectangle="1757, 418, 151, 39" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl id='ui-id-18' matching:id='fuzzy' fuzzylevel:id='0.0' tag='A' type='' class='oj-menu-option-text-only' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Sign Out' innertext='Sign Out' check:innerText='Sign Out' /&gt;" Guid="043af7ff-26a3-4581-a11a-dde993c435d5" InformativeScreenshot="6b5f49bbedc056aae9dfd86f8350dcd4.jpg" Reference="ofiVv82sLE-CZ2OMMMeI_w/tAuMjZ5OUUmoIP47M6zRVA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Oracle ® Service Cloud*' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="be5c7bbd-da55-4f52-adc5-acd835aff966" DesignTimeRectangle="1757, 378, 151, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ui-id-17' matching:id='fuzzy' fuzzylevel:id='0.0' tag='A' type='' class='oj-menu-option-text-only' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Help' innertext='Help' check:innerText='Help' /&gt;" Guid="8235511f-ab98-4a8a-a749-0cb243f74814" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="icumed--tst1.custhelp.com/cgi-bin/icumedical.cfg/php/sso/saml2/idp/post/logout.php" CVScreenId="03ece4d4-2bd5-4e62-bc65-5aa0fd63cc8c" ContentHash="XEiuwpCMzEmNYq_eBy5n_Q" CvTextArea="808, 607, 189, 18" CvTextArgument="Successfully logged out." CvType="Text" DesignTimeRectangle="815, 610, 207, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='ssoMessageStyle' aaname='Successfully logged out.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Successfully logged out.' /&gt;" Guid="68c4783e-5db4-42df-9904-67be69535566" InformativeScreenshot="5908900c6626636609c2a3d302866c3a.jpg" Reference="ofiVv82sLE-CZ2OMMMeI_w/3SE8D3dWC0yCRGI2ehFSog" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SSO Logout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="40f1b09b-7534-472f-851b-3536a98b959d" Shortcuts="[d(hk)][d(ctrl)]w[u(ctrl)][u(hk)]" Version="V4" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1928, -8, 1936, 1048" BrowserType="Edge" ContentHash="4AZfi8ZXU0GcqPMAr_rCzA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKpSURBVDhPnY5JSNRhGIdfOzg3KU+hOIiQoo42OCqljIiiOGmJImWECyKGIh46dIioky3QnoewQEgqIojIoGmRCFPcMnNJihrFdsdxm6WZ6T8+8f0xaKEOvvAc3u/3ex8+mYmLw7lrF3M2G86CApx5eczn5uKyWnFt385CZiaLFgtLZjNLKSksJyaykpCAe8sWFmJikPc2G6GDBwkdOECouZnQ/v2E6urQqqrQKivRysvRdu5EKypCy89Hy8lBy8pCS0/Hv3UrMpOTQ7ClhWBjI8H6egLV1QT27iVQUUGgtJTAjh34Cwrw5+biz87Gn5mJPy2Nb0lJrERGIu+ysvA1NOCrrcW7bx/e3bvxlpXhKS7GU1iIJy8Pj9WKe9s23BYL7tRUVoxGlsLDmRdB3mRksFxVxfKePbgPH8bX00MwGPyLgMuFx25nzmrlswhfRfioBJNmM86KCpZaW1ldXdXxjYzgHR7GOzSEd3AQz8AAnt5ePfu+sMB0bCzTIjiUYNRk4kNJCd+/fCHkdvO2uprx9HTGzWbGTSbG4uN5sXEjwyJM19aiZr6jgzERJpVgMCGBt/n5un2+q4shi4XR1FTGk5MZMxp5bjDox4pBEdwjI/gcDnrX3qQnLo6x7Gx8Ph+f7HaeJSejpAObNtEbFqYXf/JMhMWpKZz9/TwU4akSPDIa6bdYmO3uxuVyMdTUhN1g4IGIXvqV121teudlayt3RLArwd2oKB6ZTDyx2XBMTjI7O8ubvj4mbt78DcfEhJ69un+faxERXBfhthLc2LyZWzExXDUY6IyO5vGhQ/R3duoM/MG9mhraIyK4JMIVEa4pQbvBQNuGDVwU4YIIZ0U4LcKpf6Cyc2vdy0qglhO/cFyEY/9B5QrVPa8EajmyTk4qwRkRjq4T9fsfoM9OoYEBxcsAAAAASUVORK5CYII=" InformativeScreenshot="e304d0286871e5fe8e1e73023c0d0fc5.jpg" Reference="ofiVv82sLE-CZ2OMMMeI_w/FEjj856de0uaH_y52A08iQ" Selector="&lt;html app='msedge.exe' title='Oracle ® Service Cloud | icumedical__tst1' /&gt;" Url="[OSvCUrl]" Version="V3" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;LogOutOSvC...end&quot;]" />
+  </Sequence>
+</Activity>

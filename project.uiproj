@@ -1,0 +1,6 @@
+{
+  "Name": "LogOutOSvC",
+  "ProjectType": "Process",
+  "Description": "Log Out OSvC",
+  "MainFile": "Main.xaml"
+}

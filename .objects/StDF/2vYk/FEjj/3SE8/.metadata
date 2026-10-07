@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SignOutSuccessful",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "3SE8D3dWC0yCRGI2ehFSog",
+  "Reference": "ofiVv82sLE-CZ2OMMMeI_w/3SE8D3dWC0yCRGI2ehFSog",
+  "ParentRef": "ofiVv82sLE-CZ2OMMMeI_w/FEjj856de0uaH_y52A08iQ",
+  "Created": "2026-10-07T05:54:27.2037733Z",
+  "Updated": "2026-10-07T05:54:27.2037733Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
